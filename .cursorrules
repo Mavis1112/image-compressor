@@ -1,0 +1,17 @@
+{
+  "rootDir": "image-compressor",
+  "allowedPaths": [
+    "src/**/*",
+    "public/**/*",
+    "*.md",
+    "*.json",
+    "*.js",
+    ".gitignore",
+    ".env*"
+  ],
+  "rules": {
+    "createFile": {
+      "mustExist": ["image-compressor"]
+    }
+  }
+} 
